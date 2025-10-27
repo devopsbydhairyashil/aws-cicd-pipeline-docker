@@ -123,7 +123,7 @@ Once CodePipeline is configured, every new push to the main branch automatically
 
 ⸻
 
-👨‍💻 Author
+Author
 
 Dhairyashil – Cloud & DevOps Engineer
  Connect on LinkedIn
@@ -134,7 +134,3 @@ https://www.linkedin.com/in/dhairyashilclouddevops/
 
 aws cicd docker codepipeline devops cloud automation
 
----
-
-Would you like me to make the *next README (Node.js + Jenkins CI/CD)* in the same clean format next?  
-That’ll keep all your repos looking consistent and professional.
