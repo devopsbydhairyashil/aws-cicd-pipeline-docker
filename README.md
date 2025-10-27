@@ -76,8 +76,6 @@ docker push <account-id>.dkr.ecr.ap-south-1.amazonaws.com/devops-demo:latest
 	3.	Add CodeBuild as build stage → use buildspec.yml.
 	4.	Add ECS deploy stage → choose your ECS cluster and service.
 
-⸻
-
  Sample buildspec.yml
 
 version: 0.2
@@ -103,16 +101,12 @@ artifacts:
     - '/*'
 
 
-⸻
-
  Deployment
 
 Once CodePipeline is configured, every new push to the main branch automatically:
 	•	Builds a Docker image
 	•	Pushes it to ECR
 	•	Updates the ECS service with the new image
-
-⸻
 
  Results
 
@@ -121,16 +115,13 @@ Once CodePipeline is configured, every new push to the main branch automatically
 ✅ Version-controlled workflow
 ✅ Real-world AWS DevOps CI/CD setup
 
-⸻
 
 Author
 
 Dhairyashil – Cloud & DevOps Engineer
  Connect on LinkedIn
 https://www.linkedin.com/in/dhairyashilclouddevops/
-⸻
 
 🏷 Topics
 
 aws cicd docker codepipeline devops cloud automation
-
