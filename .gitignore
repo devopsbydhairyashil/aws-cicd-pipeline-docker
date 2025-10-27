@@ -1,0 +1,7 @@
+__pycache__/
+.terraform/
+.terraform.lock.hcl
+.venv/
+*.pyc
+kubeconfig
+*.zip
